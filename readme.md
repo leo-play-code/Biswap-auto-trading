@@ -2,9 +2,7 @@
 <hr>
 <br>
 <h3>What you need to know:</h3>
-<hr>
-<p>#python</p>
-<br>
+⋅⋅* python
 <h3>How to Use?</h3>
 <hr>
 <p>1.Change [account_key] to your privte key in [auto_transfer.py]</p>

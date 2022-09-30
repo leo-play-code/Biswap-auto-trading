@@ -1,10 +1,17 @@
-<h1>這是用來刷Biswap 交易的自動化工具</h1>
+<h1>Auto Trading on Biswap</h1>
 <hr>
-<h3>使用方法:</h3>
-<p>1.進入auto_transfer.py 更改 account_key 為自己的 privte key</p>
-<p>2.變更想進行互刷的交易兌 token0 , token1</p>
-<p>3.在Swap_Token 更動第一個數字可選擇要刷多少的USD</p>
+<br>
+<h3>What you need to know:</h3>
+<hr>
+<p>#python</p>
+<br>
+<h3>How to Use?</h3>
+<hr>
+<p>1.Change [account_key] to your privte key in [auto_transfer.py]</p>
+<p>2.Change [Token0] and [Token1] to the token you want to swap</p>
+<p>3.Change first value in [Swap_Token] to the value you want to swap in USD </p>
+<br>
+<h3>Notice:</h3>
+<hr>
+<p>if you want to add other token to swap you need to add (Address),(ABI) in bsc/contract/contract.json</p>
 
-<h3>注意:</h3>
-<p>*如果想添加其他交易的Token,需要到bsc/contract/contract.json添加Address,ABI,添加方式參照其他的Token</p>
-<hr>
